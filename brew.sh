@@ -1,3 +1,4 @@
+
 #!/usr/bin/env bash
 
 # Install command-line tools using Homebrew.
@@ -35,6 +36,7 @@ brew install wget --with-iri
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
+brew install keybase
 
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
