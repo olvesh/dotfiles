@@ -95,5 +95,13 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
+# devstuff
+
+brew install go
+
+# k8s
+brew install kubernetes-cli
+brew install kubernetes-helm
+
 # Remove outdated versions from the cellar.
 brew cleanup

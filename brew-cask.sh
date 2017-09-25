@@ -6,9 +6,9 @@
 
 
 # Install native apps
-brew install brew-cask
-brew install brew-cask
-# brew tap caskroom/versions
+#brew install brew-cask
+
+brew tap caskroom/cask
 
 # daily
 brew cask install spectacle
@@ -19,6 +19,9 @@ brew cask install dashlane
 # dev
 brew cask install iterm2
 brew cask install sublime-text
+brew cask install intellij-idea
+brew cask install google-cloud-sdk
+
 
 # fun
 brew cask install limechat
@@ -47,8 +50,7 @@ brew cask install spotify
 brew tap caskroom/fonts
 brew cask install font-fira-code
 
-# Development
-brew cask install intellij-idea
+brew cask install java
 
 
 # Not on cask but I want regardless.
