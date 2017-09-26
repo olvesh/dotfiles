@@ -98,6 +98,7 @@ brew install zopfli
 # devstuff
 
 brew install go
+brew install grpc
 
 # k8s
 brew install kubernetes-cli
