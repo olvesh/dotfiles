@@ -29,11 +29,11 @@ brew cask install limechat
 brew cask install horndis               # usb tethering
 
 # browsers
-# brew cask install google-chrome-canary
+brew cask install google-chrome
 # brew cask install firefoxnightly
 # brew cask install webkit-nightly
 # brew cask install chromium
-brew cask install torbrowser
+# brew cask install torbrowser
 
 # less often
 brew cask install disk-inventory-x
@@ -51,6 +51,12 @@ brew tap caskroom/fonts
 brew cask install font-fira-code
 
 brew cask install java
+
+brew cask install docker
+
+brew cask install screenhero
+
+
 
 
 # Not on cask but I want regardless.

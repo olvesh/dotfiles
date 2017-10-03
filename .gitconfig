@@ -191,3 +191,10 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+[url “git@bitbucket.org:“]
+    insteadOf = https://bitbucket.org/
+
+[url “git@bitbucket.com:“]
+    insteadOf = https://bitbucket.org/
+
