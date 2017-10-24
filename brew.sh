@@ -94,11 +94,13 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install zopfli
+brew install autojump
 
 # devstuff
 
 brew install go
 brew install grpc
+brew install jq
 
 # k8s
 brew install kubernetes-cli

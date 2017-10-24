@@ -6,9 +6,11 @@
 	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	la = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 
+  co = checkout
+  ci = commit
 
 	# View the current working tree status using the short format
-	s = status -s
+	st = status -s
 
 	# Show the diff between the latest commit and the current state
 	d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
@@ -191,10 +193,4 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
-
-[url “git@bitbucket.org:“]
-    insteadOf = https://bitbucket.org/
-
-[url “git@bitbucket.com:“]
-    insteadOf = https://bitbucket.org/
 
