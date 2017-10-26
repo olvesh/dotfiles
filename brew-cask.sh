@@ -54,7 +54,7 @@ brew cask install java
 
 brew cask install docker
 
-brew cask install screenhero
+
 
 
 
