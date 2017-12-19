@@ -101,6 +101,8 @@ brew install autojump
 brew install go
 brew install grpc
 brew install jq
+brew install source-highlight
+bres install httpstat
 
 # k8s
 brew install kubernetes-cli
