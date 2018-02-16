@@ -12,7 +12,7 @@ brew tap caskroom/cask
 
 # daily
 brew cask install spectacle
-brew cask install dashlane
+#brew cask install dashlane
 #brew cask install rescuetime
 # brew cask install flux
 
