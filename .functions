@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+# Set the iterm bagdes
+function iterm2_print_user_vars() {
+	iterm2_set_user_var k8sCluster "$(kubectl config current-context)"
+  iterm2_set_user_var gcloudProject $(cat ~/.config/gcloud/active_config)
+}
+
+
 # Create a new directory and enter it
 function mkd() {
 	mkdir -p "$@" && cd "$_";

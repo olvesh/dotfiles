@@ -68,6 +68,8 @@ brew cask install suspicious-package
 brew cask install quicklookase
 brew cask install qlvideo
 
+brew cask install anaconda
+
 
 
 # Not on cask but I want regardless.
